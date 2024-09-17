@@ -1,0 +1,57 @@
+body{
+    font-family: Helvetica, "Trebuchet MS", Verdana, sans-serif;
+    padding: 2em;
+    background-color:#FFFFFF;
+    line-height: 3em;
+}
+.container{
+    width: 80%;
+    margin: 30px auto;
+    overflow: auto;
+    min-height: 300px;
+    border: 1px solid #ccc;
+    padding: 30px;
+    border-radius: 5px;
+    background-color: #FFF;
+}
+h1{
+    text-align: center;
+    color: #474143;
+}
+fieldset{
+    padding: 2em;
+    margin: 10px 50px 20px;
+    background-color: #FFC636;
+    border: 1px solid #ccc;
+    border-radius: 1em;
+}
+button:hover{
+    background: #474143;
+}
+button{
+    margin-left: 50px;
+   border-radius: 1em;
+   border: 1px solid #ccc;
+   padding: 1em 1em;
+   background-color: #FF6444;
+   color: white;
+
+}
+#todo-list{
+    list-style: none;
+}
+#todo-list li{
+    background: #ccc;
+
+}
+.list{
+    margin: 10px 50px 20px;
+    padding: 2em;
+    background-color: #00ADA9;
+    border: 1px solid #ccc;
+    border-radius: 1em;
+}
+h2{
+    text-align: center;
+    color: #474143;
+}
