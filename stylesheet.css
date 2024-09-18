@@ -1,18 +1,15 @@
 body{
     font-family: Helvetica, "Trebuchet MS", Verdana, sans-serif;
     padding: 2em;
-    background-color:#FFFFFF;
+    background-color:#fff;
     line-height: 3em;
 }
 .container{
-    width: 80%;
-    margin: 30px auto;
-    overflow: auto;
-    min-height: 300px;
+    margin: 50px;
     border: 1px solid #ccc;
     padding: 30px;
     border-radius: 5px;
-    background-color: #FFF;
+    background-color: #fff;
 }
 h1{
     text-align: center;
@@ -20,20 +17,21 @@ h1{
 }
 fieldset{
     padding: 2em;
-    margin: 10px 50px 20px;
-    background-color: #FFC636;
+    margin: 20px 50px 20px;
+    background-color: lightgrey;
     border: 1px solid #ccc;
     border-radius: 1em;
+    color: #474143;
 }
 button:hover{
-    background: #474143;
+    background: orangered;
 }
 button{
     margin-left: 50px;
    border-radius: 1em;
    border: 1px solid #ccc;
    padding: 1em 1em;
-   background-color: #FF6444;
+   background-color: #474143;
    color: white;
 
 }
@@ -41,13 +39,16 @@ button{
     list-style: none;
 }
 #todo-list li{
-    background: #ccc;
+    background: #fff;
+    padding: 2em;
+    border: 1px solid #ccc;
+    border-radius: 1em;
 
 }
-.list{
-    margin: 10px 50px 20px;
+.list-container{
+    margin: 20px 50px 20px;
     padding: 2em;
-    background-color: #00ADA9;
+    background-color: lightgrey;
     border: 1px solid #ccc;
     border-radius: 1em;
 }

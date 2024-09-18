@@ -3,28 +3,41 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Task Tracker</title>
+    <title>ATLS-4360 Assignment 1</title>
     <link rel="stylesheet" href="stylesheet.css">
     <script src="script.js" defer></script>
 </head>
 <body>
     
-
+    <h1 id="heading">My To Do List</h1>
     <!--to do list container-->
     <div class="container">
-        <form>
-            <h1>Task Tracker</h1>
+    
+        <form id="name-form">
             <fieldset>
-                <!-- <name>To-Do List</name> -->
+                <!-- add name -->
+             <label for="name-input">Enter Your Name</label>
+             <input type="text" id="name-input" name="name-input">
+             <!--submit button-->
+             <button type="submit">Submit</button>
+            </fieldset>
+            
+        </form>
+        <form id ="todo-form">
+           
+            <fieldset>
+                 <!--add task-->
                 <label for="todo-input">Create a New Task</label>
                 <input type="text" id="todo-input" name="todo-input">
+                <!--submit button-->
+                <button type="submit">Submit</button>
             </fieldset>
-            <!--submit button-->
-            <button type="submit">Add Task</button>
+           
+
         </form>
         <!--list of tasks-->
         <h2>My Tasks</h2>
-        <div class="list">
+        <div class="list-container">
 
         <ul id="todo-list"></ul> 
         </div>
